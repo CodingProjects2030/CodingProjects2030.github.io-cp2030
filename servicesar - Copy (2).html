@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ html
+{ height: 100%;
+    background: url(home.png) repeat  ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.im1{width: 82%;
+    height: 72%;
+    float: none;}
+body{margin:0; width:100%;  height: calc(100% - 1em);
+ } 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width:100%;
+  
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  width:100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.order{text-decoration: none;font-size:26px;border: 2px solid #c6e5e9;
+    background-color: #d8b23d;
+    border-radius: 50px;
+    padding: 7px;
+    color: #202b69;}
+
+.rcorners1:hover {
+  background-color: #a1acb5;
+  color: white;
+}
+
+.rcorners1:hover a {
+  color: white;
+}
+
+.rcorners1 {
+border-radius: 25px;
+    background: white;
+    padding: 15px;
+    width: 6%;
+    height: 10%;
+    color: #1F3B89;
+    margin-top: 1%;
+    margin-right: 1%;
+    font-weight: bold;
+    /* font-size: 22px; */ 
+}
+.s1 {
+
+           padding: 15px;
+    width: 6%;
+    height: 10%;
+    color: white;
+    margin-top: 1%;
+    
+    font-weight: bold;
+	float:left;
+}
+.s2 {
+    float: left;
+    padding: 15px;
+    width: 15%;
+    height: 17%;
+    color: white;
+    margin-top: -3%;
+    /* margin-left: 0.3%; */
+    font-weight: bold;
+}
+img{width:100%;height:100%; float:left;}
+
+
+#signup{width:96%;
+height:35%;
+  margin-left:2%; text-align:center; 
+border: 2px solid black;
+ 
+  border-radius: 50px;
+background-color:white;    margin-top: -70px;  }
+
+.service{width:40%;
+height:33%;
+  margin-left:6%; text-align:center; 
+border: 2px solid black;
+ background-color: white;
+  border-radius: 50px;
+    margin-top: 22px; float:left;    padding: 2px;  position:relative; }
+ 
+ .service1{width:90%;
+height:33%;
+  margin-left:5%; text-align:center; 
+border: 2px solid black;
+ background-color: white;
+  border-radius: 50px;
+    margin-top: 22px; float:left;    padding: 2px; display:none; }
+	
+	 .service2{width:90%;
+height:33%;
+  margin-left:5%; text-align:center; 
+border: 2px solid black;
+ background-color: white;
+  border-radius: 50px;
+    margin-top: 22px; float:left;    padding: 2px; display:none; }
+
+  #btn {width:100%;height:95%; border: 2px solid black;
+  padding: 14;
+  border-radius: 50px;
+  
+      background-color: #a77cb5;
+    color: white;
+    font-weight: bold;}
+
+
+
+h1{text-align:center;}
+w1{color:white;}
+
+
+
+li .icon {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+ .rcorners1{display: none;} 
+ 
+ 
+ li .icon {
+    float: right;
+    display: block;
+	margin-top: 18px;
+    color: yellow;
+  }
+  .s1 {width:16%;}
+  
+  body{margin:0; width:100%; }
+  ul {text-align:center;}
+  
+  
+  .rcorners1 {
+  border-radius: 25px;
+    background: white;
+   padding: 0;
+    width: 100%;
+    height: 10%;
+    color: #1F3B89;
+    margin-top: 1%;
+     margin-right: 0;
+	 
+    
+   }
+   .order{text-decoration: none;font-size:15px;}
+}
+
+
+
+
+   #s11{ margin-left: 22%;}
+   
+   .service1.responsive { display: block;}
+   .service2.responsive { display: block;}
+   .down{position: absolute;
+    bottom: 0;margin-bottom: 5%;left: 40%;    height: 11%;}
+	
+	
+	@media screen and (max-width: 600px) {
+
+ .down{position: absolute;
+    bottom: 0;margin-bottom: 5%;left: 25%; height: 14%;}
+
+.s3{margin-right:1%;}
+   .topnav.responsive {position: relative;}
+   
+  .topnav.responsive li .icon {
+    
+  }
+  .topnav.responsive .rcorners1 {
+    float: left;
+    display: block;
+    text-align: left;
+	
+  }
+
+  * {font-size:14px;}
+  
+  #signup{margin-left:1%;margin-top: 15px;}
+  
+  
+   li a {color:black;}
+   
+
+@media screen and (max-width: 1501px) {
+	 #s11{ margin-left: 18%;}}
+	 
+	
+	
+</style>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+<ul>
+<li class="s3"> <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a> <li>
+
+
+<li class="s2"><img src="logo4.png" > <li>
+<li class="s1" id="s11"><a style="color:white;" href="signupar.html">انشاء حساب</a>   <li>
+<li class="s1"><a style="color:white;" href="loginen.html">English</a> <li>
+
+
+
+<li class="rcorners1" id="home"><a style="color:black;" href="indexar.html">الرئيسية</a> <li>
+<li class="rcorners1"><a  style="color:black;" href="#home">من نحن</a> <li>
+<li class="rcorners1"> <a  style="color:black;" href="#home">الخدمات</a> <li>
+<li class="rcorners1"> <a  style="color:black;" href="#home">تواصل معنا</a> <li>
+<li class="rcorners1"> <a  style="color:black;" href="#home">طلباتي</a> <li>
+
+</ul>
+</div>
+
+
+
+<div class="service">
+<h2>تصميم موقع الكتروني </h2>
+<a class="order" href="">طلب الخدمة</a></br>
+
+<img class="im1" src="pic1.jpg"> </br>
+
+  
+ 
+
+</div>
+
+<div class="service">
+<h2>تعديل على موقع الكتروني </h2>
+<img class="im1" src="pic2.jpg"> 
+<div class="down">
+<a class="order" href="">طلب الخدمة</a>
+
+</div></div>
+
+
+<div class="service">
+<h2>تصميم لوقو وشعارات </h2>
+<img class="im1" src="pic4.jpg"> </br>
+
+<div class="down">
+<a class="order" href="">طلب الخدمة</a>
+
+</div></div>
+
+
+<div class="service">
+<h2>تطوير تطبيق سطح المكتب </h2>
+<img class="im1" src="pic3.jpg"> </br>
+<div class="down">
+<a class="order" href="">طلب الخدمة</a>
+
+</div></div>
+
+<div class="service">
+<h2>تطوير تطبيق اندرويد </h2>
+<img class="im1" src="pic5.jpg"> </br>
+<div class="down">
+<a class="order" href="">طلب الخدمة</a>
+
+</div></div>
+
+<div class="service">
+<h2>خدمات برمجية أخرى </h2>
+<img class="im1" src="pic6.jpg"> </br>
+<div class="down">
+<a class="order" href="">طلب الخدمة</a>
+
+</div></div>
+
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+</script>
+
+
+</body>
+</html>
+

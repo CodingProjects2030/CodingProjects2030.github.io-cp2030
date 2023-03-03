@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ html
+{ height: 100%;
+    background: url(img4.png) no-repeat  ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+}
+body{margin:0; width:100%;  height: calc(100% - 1em);
+ } 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width:100%;
+  
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  width:100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+.rcorners1:hover {
+  background-color: #111111;
+  color: white;
+}
+
+.rcorners1:hover a {
+  color: white;
+}
+
+.rcorners1 {
+border-radius: 25px;
+    background: white;
+    padding: 15px;
+    width: 10%;
+    height: 10%;
+    color: #1F3B89;
+    margin-top: 1%;
+    margin-right: 1%;
+    font-weight: bold;
+    /* font-size: 22px; */ 
+}
+.s1 {
+
+           padding: 15px;
+    width: 6%;
+    height: 10%;
+    color: white;
+    margin-top: 1%;
+    
+    font-weight: bold;
+	float:left;
+}
+.s2 {
+    float: left;
+    padding: 15px;
+    width: 15%;
+    height: 17%;
+    color: white;
+    margin-top: -3%;
+    /* margin-left: 0.3%; */
+    font-weight: bold;
+}
+img{width:100%;height:100%; float:left;}
+.personicon{width:8%;height:100%; float:right;}
+input {width:80%;height:100%; float:right; border:none; font-size:22px;
+direction:rtl;margin-right: 4px;}
+
+#signup{width:40%;
+height:66%;
+  margin-left:20%; text-align:center; 
+border: 2px solid black;
+  padding: 10px;
+  border-radius: 50px;
+   margin-top: -70px; 
+
+
+
+
+ }
+
+.roo{width:70%;
+height:10%;
+  margin-left:20%; 
+border: 2px solid black;
+  padding: 10px;
+  background-color:white;
+  
+  }
+ 
+.roo2{width:20%;
+height:10%;
+  margin-left:40%; 
+
+  padding: 10px;
+ 
+  }
+  #msg{height:30%;}
+  textarea{height:100%; width:88%;text-align:right; border: none;
+    outline: none;}
+ 
+
+  #btn {width:100%;height:95%; border: 2px solid black;
+  padding: 14;
+  border-radius: 50px;
+  
+      background-color: #a77cb5;
+    color: white;
+    font-weight: bold;}
+
+
+
+h1{text-align:center;}
+w1{color:white;}
+
+
+
+li .icon {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+ .rcorners1{display: none;} 
+ 
+ 
+ li .icon {
+    float: right;
+    display: block;
+	margin-top: 18px;
+    color: yellow;
+  }
+  .s1 {width:16%;}
+  
+  body{margin:0; width:100%; }
+  ul {text-align:center;}
+  
+  
+  .rcorners1 {
+  border-radius: 25px;
+    background: white;
+   padding: 0;
+    width: 100%;
+    height: 10%;
+    color: #1F3B89;
+    margin-top: 1%;
+     margin-right: 0;
+    
+   }
+}
+
+@media screen and (max-width: 600px) {
+
+.s3{margin-right:1%;}
+   .topnav.responsive {position: relative;}
+  .topnav.responsive li .icon {
+    
+  }
+  .topnav.responsive .rcorners1 {
+    float: left;
+    display: block;
+    text-align: left;
+	
+  }
+
+  * {font-size:16px;}
+  input {font-size:12px;}
+  #signup{width:50%;margin-left:20%;margin-top: 15px;}
+  .roo{width:70%;
+
+  margin-left:10%; 
+
+  }
+  .personicon{width:12%;}
+   li a {color:black;}
+}
+
+form{width:100%; height:100%;}
+   #s11{ margin-left: 14%;}
+</style>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+<ul>
+<li class="s3"> <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a> <li>
+
+
+<li class="s2"><img src="logo4.png" > <li>
+<li class="s1" id="s11"><a style="color:white;" href="signupar.html">انشاء حساب</a>   <li>
+<li class="s1"><a style="color:white;" href="contactusen.html">English</a> <li>
+
+
+
+<li class="rcorners1" id="home"><a href="indexar.html">الرئيسية</a> <li>
+<li class="rcorners1"><a  href="#home">من نحن</a> <li>
+<li class="rcorners1"> <a  href="servicesar.html">الخدمات</a> <li>
+
+<li class="rcorners1"> <a  href="#home">طلباتي</a> <li>
+
+</ul>
+</div>
+
+<div id="signup">
+
+<h1> تواصل معنا </h1>
+
+<form>
+
+
+<div class="roo">
+<img class ="personicon" src="emailicon.png" >
+<input type="text" placeholder="البريد الالكتروني" required> 
+</div>
+
+</br>
+<div class="roo">
+<img class ="personicon" src="personicon.png" >
+<input type="text" placeholder="الإسم" required> 
+</div>
+</br>
+<div class="roo" id="msg">
+
+<textarea type="text"  required> </textarea>
+</div>
+</br>
+
+<div class="roo2">
+
+<input id="btn" type="submit"  value="إرسال"> 
+</div>
+
+</form>
+
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+</body>
+</html>
+
